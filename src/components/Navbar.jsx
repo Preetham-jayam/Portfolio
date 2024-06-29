@@ -37,7 +37,7 @@ const Navbar = () => {
     <a href="https://leetcode.com/Preetham_Jayam/" target='_blank' rel='noopener noreferrer' className='footer-icon '>
         <SiLeetcode className='text-3xl text-yellow-400' />
     </a>
-    <a href="https://auth.geeksforgeeks.org/user/naga_preetam_jayam/practice/" target='_blank' rel='noopener noreferrer' className='footer-icon '>
+    <a href="https://www.geeksforgeeks.org/user/preethamjayam2004/" target='_blank' rel='noopener noreferrer' className='footer-icon '>
         <SiGeeksforgeeks className='text-3xl text-green-500' />
     </a>
 </div>
