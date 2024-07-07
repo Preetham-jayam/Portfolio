@@ -4,6 +4,7 @@ import TechieShop from "../assets/TechieShop.png";
 import Movie from '../assets/MovieMazaa.png'
 import Ideas from '../assets/InfiniteIdeas.png'
 import fsd from "../assets/fsd.png";
+import Learnify from '../assets/Learnify.png'
 import Footer from "./Footer";
 import Background from "./Background";
 
@@ -45,6 +46,8 @@ const ProjectCard = ({
         </a>
         <a
           href={liveLink}
+          rel="noreferrer"
+          target="_blank"
           className="flex items-center bg-indigo-500 hover:bg-indigo-400 text-white font-bold py-2 px-4 rounded transition duration-300"
         >
           <i className="fas fa-arrow-right mr-2"></i>Live Demo
@@ -107,6 +110,15 @@ const projects = [
     repoLink: "https://github.com/Preetham-jayam/MernApp",
     liveLink: "https://techieshop.onrender.com/",
     image: TechieShop,
+  },
+  {
+    title: "Learnify",
+    description:
+      "Learnify is Node.js web application using EJS template engine features OAuth 2.0 authentication for secure Google sign-ins. It includes Creator and Student roles, enabling Creators to upload and post videos while Students can view them also supports infinite threaded comments and utilizes AWS S3 and CDN for efficient media storage and delivery.",
+    techStack: ["Node.js", "EJS","MongoDB"],
+    repoLink: "https://github.com/Preetham-jayam/Learnify",
+    liveLink: "https://learnify-ky1h.onrender.com",
+    image: Learnify,
   },
   {
     title: "MovieMazaa",
